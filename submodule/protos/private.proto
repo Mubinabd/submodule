@@ -2,7 +2,7 @@ syntax="proto3";
 
 package proto;
 
-option go_package = "internal/pkg/genproto";
+option go_package = "pkg/genproto";
 
 import "protos/common.proto";
 service PrivateService {
