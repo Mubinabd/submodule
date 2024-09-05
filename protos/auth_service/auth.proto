@@ -23,6 +23,7 @@ message RegisterReq {
     string password = 3;
     string full_name = 4;
     string date_of_birth = 5;
+    string role = 6;
 }
 
 message User {
